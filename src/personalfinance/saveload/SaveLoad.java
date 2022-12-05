@@ -2,13 +2,14 @@ package personalfinance.saveload;
 // Механизм сохраннения и загрузки
 
 
-import java.util.logging.Level;
-import java.util.logging.Logger;
+import personalfinance.settings.Settings;
+
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Marshaller;
 import javax.xml.bind.Unmarshaller;
-import personalfinance.settings.Settings;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 
 
 public class SaveLoad {

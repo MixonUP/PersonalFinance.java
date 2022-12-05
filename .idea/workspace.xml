@@ -1,14 +1,127 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="d3d7e8c0-adc0-4e43-bb36-ae6d90d8cbb9" name="Changes" comment="" />
+    <list default="true" id="d3d7e8c0-adc0-4e43-bb36-ae6d90d8cbb9" name="Changes" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/images/Thumbs.db" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/account.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/accounts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/accounts_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/amount.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/article.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/articles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/articles_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/balance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/balance_currencies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/base.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/cancel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/code.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/currencies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/currencies_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/currency.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/date.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/left.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/main.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_edit_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_edit_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_edit_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_file.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_file_exit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_file_new.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_file_open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_file_save.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_file_update_currencies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_help.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_help_about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_popup_delete.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_popup_edit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_settings.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_settings_language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_settings_language_english.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_settings_language_russian.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_view.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_view_accounts.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_view_articles.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_view_currencies.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_view_overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_view_statistics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_view_transactions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/menu_view_transfers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/notice.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/ok.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/on.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/overview_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/rate.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/right.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/statistics.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/statistics_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/title.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/transactions.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/transactions_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/transfers.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/transfers_panel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/EnableEditDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/MainButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/MainDatePicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/MainFileChooser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/MainFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/Refresh.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/dialog/AboutDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/dialog/AccountAddEditDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/dialog/AddEditDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/dialog/ArticleAddEditDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/dialog/ConfirmDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/dialog/CurrencyAddEditDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/dialog/ErrorDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/dialog/TransactionAddEditDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/dialog/TransferAddEditDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/menu/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/toolbar/AbstractToolBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/toolbar/FunctionsToolBar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/personalfinance/gui/toolbar/MainToolBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PersonalFinance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/PersonalFinance.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saves/default.myrus" beforeDir="false" afterPath="$PROJECT_DIR$/saves/default.myrus" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/saves/settings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/saves/settings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PersonalFinance.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/PersonalFinance.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/PersonalFinance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/saveload/RateCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/saveload/RateCurrency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/saveload/SaveData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/saveload/SaveLoad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/saveload/SaveLoad.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/settings/HandlerCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/settings/HandlerCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/settings/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/settings/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/settings/Style.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/settings/Style.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/personalfinance/settings/Text.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HtSiOUOiABUc5VOtRjzs9YY1qU" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -18,12 +131,44 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/project/PersonalFinance/src/personalfinance/exception&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="personalfinance" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\PersonalFinance\src\personalfinance\exception" />
+      <recent name="D:\project\PersonalFinance\lib" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\project\PersonalFinance" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="personalfinance.gui.dialog" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="PersonalFinance" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="C:\Program Files\Java\jdk1.8.0_202\jre" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="personalfinance.PersonalFinance" />
+      <module name="PersonalFinance" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -34,5 +179,41 @@
       <updated>1669103018104</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.IOException" package="java.io" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

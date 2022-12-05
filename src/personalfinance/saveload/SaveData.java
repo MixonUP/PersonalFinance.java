@@ -1,11 +1,12 @@
 package personalfinance.saveload;
 
+import personalfinance.exception.ModelException;
+import personalfinance.model.*;
+
 import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.List;
-import personalfinance.exception.ModelException;
-import personalfinance.model.*;
 
 
 public final class SaveData {

@@ -1,10 +1,11 @@
 package personalfinance;
 
-import personalfinance.exception.ModelException;
+import personalfinance.gui.MainFrame;
 import personalfinance.model.*;
 import personalfinance.saveload.SaveData;
 import personalfinance.settings.Settings;
 import personalfinance.settings.Text;
+
 import java.awt.*;
 import java.io.IOException;
 import java.util.ArrayList;
@@ -12,12 +13,16 @@ import java.util.Date;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
-
 public class PersonalFinance {
 
     public static void main(String[] args) throws Exception {
         init();
-       testModel();
+        MainFrame frame = new MainFrame();
+        frame.setVisible(true);
+        SaveData sd = SaveData.getInstance();
+        //sd.updateCurrencies();
+        //sd.save();
+        System.out.println(sd);
 
     }
 
@@ -32,7 +37,7 @@ public class PersonalFinance {
         }
     }
 
-    private static void testModel() throws ModelException {
+    private static void testModel() throws personalfinance.exception.ModelException {
         Currency c1 = new Currency("Рубль", "RUB", 1, true, true);
         Currency c2 = new Currency("Доллар", "USD", 65, true, false);
         Currency c3 = new Currency("Евро", "EUR", 75, false, false);
@@ -108,4 +113,6 @@ public class PersonalFinance {
         System.out.println(sd);
     }
 
+    private static class ModelException extends Exception {
+    }
 }

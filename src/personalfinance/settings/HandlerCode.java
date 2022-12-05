@@ -8,7 +8,7 @@ public class HandlerCode {
     public static final String MENU_FILE_EXIT = "MENU_FILE_EXIT";
     public static final String MENU_EDIT_ADD = "MENU_EDIT_ADD";
     public static final String MENU_EDIT_EDIT = "MENU_EDIT_EDIT";
-    public static final String MENU_EDIT_DELEETE = "MENU_EDIT_DELEETE";
+    public static final String MENU_EDIT_DELETE = "MENU_EDIT_DELETE";
     public static final String MENU_VIEW_OVERVIEW = "MENU_VIEW_OVERVIEW";
     public static final String MENU_VIEW_ACCOUNTS = "MENU_VIEW_ACCOUNTS";
     public static final String MENU_VIEW_ARTICLES = "MENU_VIEW_ARTICLES";

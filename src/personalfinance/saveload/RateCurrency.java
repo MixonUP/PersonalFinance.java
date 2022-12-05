@@ -1,15 +1,16 @@
 package personalfinance.saveload;
 
+import org.w3c.dom.Document;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import personalfinance.model.Currency;
+
+import javax.xml.parsers.DocumentBuilderFactory;
 import java.net.URL;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
-import javax.xml.parsers.DocumentBuilderFactory;
-import org.w3c.dom.Document;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
-import personalfinance.model.Currency;
 
 public class RateCurrency {
 
@@ -19,9 +20,11 @@ public class RateCurrency {
         SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
         String url = "http://www.cbr.ru/scripts/XML_daily.asp?date_req=" + dateFormat.format(new Date());
 
+        System.out.println(url);
+
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         Document doc = factory.newDocumentBuilder().parse(new URL(url).openStream());
-
+// парсер
         NodeList nl = doc.getElementsByTagName("Valute");
         for (int i = 0; i < nl.getLength(); i++) {
             Node node = nl.item(i);

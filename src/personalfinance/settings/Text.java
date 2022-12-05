@@ -18,7 +18,7 @@ final public class Text {
     public static String[] getMonths() {
         String[] months = new String[12];
         months[0] = get("JANUARY");
-        months[1] = get("FEBRUAR");
+        months[1] = get("FEBRUARY");
         months[2] = get("MARCH");
         months[3] = get("APRIL");
         months[4] = get("MAY");
@@ -37,7 +37,7 @@ final public class Text {
             data.put("PROGRAMM_NAME", "Домашняя бухгалтерия");
 
             data.put("JANUARY", "Январь");
-            data.put("FEBRUAR", "Февраль");
+            data.put("FEBRUARY", "Февраль");
             data.put("MARCH", "Март");
             data.put("APRIL", "Апрель");
             data.put("MAY", "Май");
@@ -183,10 +183,8 @@ final public class Text {
             data.put("DIALOG_ABOUT_TITLE", "О программе");
             data.put("ABOUT", "<body style='font-size: 120%; text-align: center; width: 350px;'>"
                     + "<h1>Домашняя бухгалтерия</h1><p><img src='file:images/main.png' /></p>"
-                    + "<p>Данная программа была сделана в Видеокурсе"
-                    + "<br />\"Создание крупного проекта на Java с Нуля\""
-                    + "<br /><a style='font-weight: bold;' href='https://srs.myrusakov.ru/javaproject'>https://srs.myrusakov.ru/javaproject</a></p>"
-                    + "<p>С Уважением, Михаил Русаков!</p>"
+                    + "<br /><a style='font-weight: bold;' href='https://github.com/MixonUP/PersonalFinance.java'>https://github.com/MixonUP/PersonalFinance.java</a></p>"
+                    + "<p>С Уважением, Михаил Охременко!</p>"
                     + "<p>Copyright " + Calendar.getInstance().get(Calendar.YEAR) + " </p></body>");
         }
         else {
